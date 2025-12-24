@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-23T15:28:16-08:00</updated><id>/feed.xml</id><title type="html">rnsf.dev</title><subtitle>My name is Ahren. This is my blog.</subtitle><entry><title type="html">Why I’m Starting this Blog</title><link href="/jekyll/update/2025/12/23/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Why I’m Starting this Blog" /><published>2025-12-23T14:37:53-08:00</published><updated>2025-12-23T14:37:53-08:00</updated><id>/jekyll/update/2025/12/23/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2025/12/23/welcome-to-jekyll.html"><![CDATA[<p>I’m starting this blog for a few reasons.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-12-24T15:00:37-08:00</updated><id>/feed.xml</id><title type="html">rnsf.dev</title><subtitle>My name is Ahren. This is my blog.</subtitle><entry><title type="html">Moving Away from Consumer Software</title><link href="/2025/12/24/consumer-software.html" rel="alternate" type="text/html" title="Moving Away from Consumer Software" /><published>2025-12-24T00:00:00-08:00</published><updated>2025-12-24T00:00:00-08:00</updated><id>/2025/12/24/consumer-software</id><content type="html" xml:base="/2025/12/24/consumer-software.html"><![CDATA[<p>I’ve experimented the last 4 months with reducing my screen time as much as possible. I found that the time that I was spending on the computer was taking away from more meaningful things I could be doing and was starting to get the in way of my wellbeing. With working another fully remote co-op this semester, I made a decision to do a little experimenting when it came to my relationship with technology. This was comprised of multiple actions primarily aimed at reducing screen time:</p>
+
+<ol>
+  <li>Automatically shutting down my PC after 6pm (after working hours). I still had my laptop to complete school work / other tasks that needed to be done after work.</li>
+  <li>Using various social media blockers to block infinite scrolling feeds (I’d already been doing this for a while, but did it to a larger extent over the past 4 months).</li>
+  <li>Making a larger effort to sign up for additional clubs and one-off events that would get me out of my dorm. I tried a lot of new things this semester including volunteering, salsa dancing, and resistance training; as well as attending various events from table top gaming to tote bag painting to marathons and half marathons.</li>
+  <li>Putting zero preassure on myself to be working on programming related side projects.</li>
+</ol>
+
+<p>Needless to say, I ended up having a really good time this semester. In fact, this was probably my favourite semester of university since I started 3 years ago. Of course there were other factors that helped: co-op is less stressful than academics, and I’m now quite been acclimated to life at university with this being my 4th year. Regardless, I don’t think anything else I’ve tried has improved my wellbeing quite to the extent that this experiment has.</p>
+
+<p>As I’ve taken a step back this semester, I’ve also noticed that being on a screen just doesn’t seem to be a very fun place to be. The few times a did scroll this semester I really noticed just how bad I felt after. Externally I also started noticing signs that the whole ecosystem of consumer software has fallen off:</p>
+
+<ul>
+  <li>Google’s app of the year is Focus Friend: an app designed to force you to spend less time using the other apps on your phone.</li>
+  <li>One of the top genres in gaming this year was called “friendslop”</li>
+  <li>Oxford Dictionary’s word of the year is “rage bait” (last year it was “brain rot”).</li>
+</ul>
+
+<p>Of course most of these things are more vibes based, but you don’t have to search hard to find studies showing the correlation between social media usage and a host of issues from <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9817115/">loneliness</a>, to <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6278213/">suicidal ideation</a>, to <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5003636/">eating disorders</a>.</p>
+
+<p>As a someone who’s wanted to be an indie game developer for over 5 years now, I naturally have consumed a lot of content from other (more successful) indie developers on how to do this. Before I started this experiment, I watched this talk from Jonathan Blow about how to find motivation to work on software projects.</p>
+
+<blockquote>
+  <p>For those that don’t know, Jon developed <a href="https://store.steampowered.com/app/26800/Braid/">Braid</a>, one of the first major PC indie hits. He’s been programming for over 3 decades, so he knows a few things.</p>
+</blockquote>
+
+<p>Anyway, near the beginning of the talk he states he believes that “computers are fundamentally depressing” (<a href="https://www.youtube.com/watch?v=RgSLRL5OpzY">17:45</a>) and that a lot of technical people are “unhappy for a great percentage of the time they are sitting in front of a computer” (<a href="https://www.youtube.com/watch?v=RgSLRL5OpzY">19:20</a>). He then goes on for the next hour discussing metitative techniques (among other things) to cope with the depression caused by computers. But man as I look back on this now do I think… it seems like it would be a lot easier to just avoid using the computer in the first place.</p>
+
+<p>That’s what I did. And it worked.</p>
+
+<p>Until next time,</p>
+
+<p><em>Ahren</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve experimented the last 4 months with reducing my screen time as much as possible. I found that the time that I was spending on the computer was taking away from more meaningful things I could be doing and was starting to get the in way of my wellbeing. With working another fully remote co-op this semester, I made a decision to do a little experimenting when it came to my relationship with technology. This was comprised of multiple actions primarily aimed at reducing screen time:]]></summary></entry><entry><title type="html">Why I’m Starting this Blog</title><link href="/2025/12/23/why-im-starting-this-blog.html" rel="alternate" type="text/html" title="Why I’m Starting this Blog" /><published>2025-12-23T00:00:00-08:00</published><updated>2025-12-23T00:00:00-08:00</updated><id>/2025/12/23/why-im-starting-this-blog</id><content type="html" xml:base="/2025/12/23/why-im-starting-this-blog.html"><![CDATA[<p>I’m starting this blog for a few reasons.</p>
 
 <ol>
   <li>I feel like I have a pretty high filter when I talk to people. This obviously makes it harder to connect with others, and makes me stay quiet most of the time. This is where I’m going to experiment with lowering that filter.</li>
@@ -8,4 +41,4 @@
 
 <p>That’s all for now.</p>
 
-<p><em>Ahren</em></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[I’m starting this blog for a few reasons.]]></summary></entry></feed>
+<p><em>Ahren</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m starting this blog for a few reasons.]]></summary></entry></feed>
