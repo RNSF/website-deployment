@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="rnsf.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="rnsf.dev/" rel="alternate" type="text/html" /><updated>2026-08-27T20:14:03-07:00</updated><id>rnsf.dev/feed.xml</id><title type="html">rnsf.dev</title><subtitle>My name is Ahren. This is my blog.</subtitle><entry><title type="html">Making the most of a broken foot</title><link href="rnsf.dev/2026/08/27/making-the-most-of-a-broken-foot.html" rel="alternate" type="text/html" title="Making the most of a broken foot" /><published>2026-08-27T00:00:00-07:00</published><updated>2026-08-27T00:00:00-07:00</updated><id>rnsf.dev/2026/08/27/making-the-most-of-a-broken-foot</id><content type="html" xml:base="rnsf.dev/2026/08/27/making-the-most-of-a-broken-foot.html"><![CDATA[<p>I broke my foot about a week ago now. How? I was playing charades. What was I miming? <em>Sherlock Holmes: A Game of Shadows</em>. Did we still win the point? You bet your ass.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="rnsf.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="rnsf.dev/" rel="alternate" type="text/html" /><updated>2026-10-19T19:49:02-07:00</updated><id>rnsf.dev/feed.xml</id><title type="html">rnsf.dev</title><subtitle>My name is Ahren. This is my blog.</subtitle><entry><title type="html">Finances (Aug 2026 Edition)</title><link href="rnsf.dev/2026/09/13/finances-review.html" rel="alternate" type="text/html" title="Finances (Aug 2026 Edition)" /><published>2026-09-13T00:00:00-07:00</published><updated>2026-09-13T00:00:00-07:00</updated><id>rnsf.dev/2026/09/13/finances-review</id><content type="html" xml:base="rnsf.dev/2026/09/13/finances-review.html"><![CDATA[<p>I took a look at my finances this weekend and decided to make some charts. Really, these are just the finances from my credit card spending, so they don’t include rent, tuition, or the things included in those (e.g., bus pass), as well as some other miscellaneous items (e-transfers). I buy pretty much everything else on my card though, so it is quite comprehensive.</p>
+
+<h2 id="how-i-keep-track-of-finances">How I keep track of finances</h2>
+<p>I keep track of my finances using an SQL database. I have a Python script that reads in credit card spending histories that I download from my bank account. From there, I can categorize transactions from different retailers into one of the following categories:</p>
+
+<ul>
+  <li>Interest</li>
+  <li>Dining</li>
+  <li>Grocery</li>
+  <li>Recreation (this includes going to events, Spotify subscriptions, and pretty much any form of entertainment)</li>
+  <li>Housing</li>
+  <li>School</li>
+  <li>Laundry</li>
+  <li>Phone</li>
+  <li>Inner (this is money moving between accounts)</li>
+  <li>Misc</li>
+  <li>Transport</li>
+  <li>Clothing</li>
+  <li>Health</li>
+  <li>Gear (this one I only introduced this year)</li>
+</ul>
+
+<p>Now, this categorization isn’t perfect, as it’s per retailer. For example, even though I might go to Breka Bakery to buy bread (<em>Grocery</em>), I can also buy sandwiches there (<em>Dining</em>), but all transactions there are categorized as <em>Grocery</em>.</p>
+
+<p>Anyway, putting everything into an SQL database has some cool perks. I can query for pretty much anything I can think of:</p>
+
+<ul>
+  <li>Average monthly spending on groceries per year?</li>
+  <li>Breakdown of all transactions in a specific category in a specific year?</li>
+  <li>Total money spent at Chipotle? (This one is higher than I care to admit)</li>
+</ul>
+
+<p>I can pretty much query for anything. This also allows me to make some cool charts on my spending habits.</p>
+
+<h2 id="the-charts">The charts</h2>
+
+<p>Alright, let’s get into the charts. As a reminder, this data isn’t perfect, but it should give a rough idea of what’s going on in my financial life. The data in these charts spans July 2024 to August 2026.</p>
+
+<p><img src="/assets/finance_chart1.svg" alt="average monthly spending in key areas" /></p>
+
+<p>This is probably the most interesting chart. The <em>Other Physical Items</em> category includes <em>Misc</em>, <em>Clothing</em>, and <em>Gear</em>, due to these three being a little interchangeable. As seen, my grocery bills have been steadily increasing (6-8%/year), which is higher than the rate of grocery inflation (<a href="https://www150.statcan.gc.ca/n1/daily-quotidien/260720/dq260720a-eng.htm">3-4%/year</a>). This means I’m probably buying slightly nicer groceries than I was two years ago, which isn’t entirely surprising.</p>
+
+<p>The dining category has fluctuated a bit, increasing this past year. This is most likely due to an increase in trips and social events I’ve gone to this year. Although, I’m surprised to see it’s only about $24 higher than it was in 2024—about 1–1.5 meals’ worth—even though I’ve felt like I’ve been going out to eat a lot more in 2026. Maybe the times I go out to eat are just more memorable now because I almost always go out with friends, versus in 2024 when I was mostly dining out alone.</p>
+
+<p>Interestingly, my <em>Recreation</em> spending has gone down from the previous year, even though I’ve been going out a lot more. I think this can be accounted for by hiking/camping (something I did a lot this summer) mostly having expenses in other categories (<em>Transport</em>, <em>Gear</em>).</p>
+
+<p>Finally, we come to <em>Other Physical Items</em>. This one is, uhhh, a little high this year due to me buying a lot of expensive camping and hiking gear. I should really look into shopping for more second-hand stuff from now on.</p>
+
+<p><img src="/assets/finance_chart2.svg" alt="dining in 2025" /></p>
+
+<p>Next up are some charts analyzing my spending from last year, number one being my total dining expenditure. Chipotle makes up a quarter of this. I had a bit of a problem last year…</p>
+
+<p><img src="/assets/finance_chart2.svg" alt="chipotle spending" /></p>
+
+<p>It seems like Chipotle spending peaked from March to August, but has since come down to reasonable levels. I had a reason for it to be high during this period, which maybe I’ll write about another time.</p>
+
+<p><img src="/assets/finance_chart3.svg" alt="grocery in 2025" /></p>
+
+<p>Moving on, most of my grocery money went to No Frills. With the amount I spent, optimally using the Tuesday 10% student cashback meant I could save $420 over the course of a year. Of course, I didn’t always shop on Tuesdays, but I think I’ve made at least a couple hundred dollars from being a points member.</p>
+
+<p><img src="/assets/finance_chart4.svg" alt="spending in 2025" /></p>
+
+<p>Finally, that brings us to overall spending in 2025. Over half my spending was on groceries. About 70% was on food.</p>
+
+<h2 id="the-other-things">The other things</h2>
+<p>Rent for me is about $1,000/month, and tuition is about $3,500/semester. A full year of studying (including the summer semester) would therefore cost me ~$34,000. Interesting…</p>
+
+<p>Anyway, cheers,<br />
+Ahren</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I took a look at my finances this weekend and decided to make some charts. Really, these are just the finances from my credit card spending, so they don’t include rent, tuition, or the things included in those (e.g., bus pass), as well as some other miscellaneous items (e-transfers). I buy pretty much everything else on my card though, so it is quite comprehensive.]]></summary></entry><entry><title type="html">Six Rules for the Summer: A Review</title><link href="rnsf.dev/2026/09/02/rules-for-the-summer-post.html" rel="alternate" type="text/html" title="Six Rules for the Summer: A Review" /><published>2026-09-02T00:00:00-07:00</published><updated>2026-09-02T00:00:00-07:00</updated><id>rnsf.dev/2026/09/02/rules-for-the-summer-post</id><content type="html" xml:base="rnsf.dev/2026/09/02/rules-for-the-summer-post.html"><![CDATA[<p>Welp, it’s September now, meaning summer (or at least what I like to call summer: May through August) is now over. And that means it’s time to take a look back at how I did following my <a href="/2026/05/20/rules-for-the-summer.html">6 rules</a>. I was quite successful with some, not quite as much with others. Let’s dive in.</p>
+
+<h2 id="1-every-weekend-must-have-a-plan">1. Every weekend must have a plan.</h2>
+<p>Of all my rules, this was probably the most successful. With the list being ranked by importance, this makes sense. Over the summer I did A LOT of stuff:</p>
+
+<ul>
+  <li>5 overnight camping trips (Okanagan, Pump Peak, Chilliwack, Tricouni-Berg Lake, Phelix Hut)</li>
+  <li>4 day hikes (Alouette Mountain, Brunswick/Harvey, Baden Powell (Horseshoe Bay-Grouse), Grouse Grind)</li>
+  <li>4 50km+ bike rides (Squamish, SFU, White Rock, Bowen Island)</li>
+</ul>
+
+<p>I’d say there were probably only 1 or 2 weekends when I didn’t do anything, and those were near the start, and after I broke my foot mid-August. Overall, great success! This summer has felt so full of adventure, and I’m immensely grateful for that. MASSIVE shout-out to the Varsity Outdoors Club at UBC - probably about half of the things I listed above were hosted by them.</p>
+
+<h2 id="2-make-activities-social-if-possible">2. Make activities social if possible.</h2>
+<p>This rule was also quite successful! Compared to the previous year, I can’t think of many times where I went and did a big activity alone. From movies, to (shorter) rides, to parties, I had a great time interacting with my friends (new and old) this summer!</p>
+
+<h2 id="3-no-tech-alone-past-9pm">3. No tech (alone) past 9pm.</h2>
+<p>Now we are moving into territory where I was not quite as successful. I’d say I managed to keep this up about half of the time. For the first half of the summer, I was often waking up around 6:30am or so. I never thought I’d be the guy to do that. Now I just need to become more consistent with it. There was a period around middle-to-late summer where I just completely ditched this rule.</p>
+
+<h2 id="4-call-home-at-least-once-a-week">4. Call home at least once a week.</h2>
+<p>This rule was also moderately successful. There were probably about 2 or 3 weeks where I neither called my parents nor visited home. I will say, I think I preferred the phone calls more, though, for some reason. I guess because the focus was actually on talking to my parents.</p>
+
+<h2 id="5-call-first-then-text">5. Call first, then text.</h2>
+<p>I low-key forgot this rule existed. I mean, I am calling people more now than I used to, but not that much more. I’d say this rule was kind of a failure. But at the same time, I guess this rule was also kind of in place to reinforce making more plans (rule #1) and being more social (rule #2), so my failure to follow this rule wasn’t really that big of a deal.</p>
+
+<h2 id="6-write-at-least-one-blog-post-a-week">6. Write at least one blog post a week.</h2>
+<p>And now we come to the rule I feel most guilty about, because it’s also the one where my failure is most public. I did not write a blog post every week. I did not even come close. In total, I wrote 7 posts over the span of 15 weeks. I missed 8 WEEKS (well, technically 9, because I wrote 2 in one week). Nonetheless, I still wrote a lot more than I would have had I never set this goal, and I also wrote some very important pieces during this time as well, such as my <a href="/2026/06/15/personal-philosophy-1.html">Personal Philosophy</a> series. With that said, I don’t think I really followed this rule. Why? Mainly due to a mixture of laziness and realizing that writing… is actually kind of hard. I’ll be working on this over the next 4 months.</p>
+
+<p>Sincerely,</p>
+<ul>
+  <li>Ahren</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Welp, it’s September now, meaning summer (or at least what I like to call summer: May through August) is now over. And that means it’s time to take a look back at how I did following my 6 rules. I was quite successful with some, not quite as much with others. Let’s dive in.]]></summary></entry><entry><title type="html">Making the most of a broken foot</title><link href="rnsf.dev/2026/08/27/making-the-most-of-a-broken-foot.html" rel="alternate" type="text/html" title="Making the most of a broken foot" /><published>2026-08-27T00:00:00-07:00</published><updated>2026-08-27T00:00:00-07:00</updated><id>rnsf.dev/2026/08/27/making-the-most-of-a-broken-foot</id><content type="html" xml:base="rnsf.dev/2026/08/27/making-the-most-of-a-broken-foot.html"><![CDATA[<p>I broke my foot about a week ago now. How? I was playing charades. What was I miming? <em>Sherlock Holmes: A Game of Shadows</em>. Did we still win the point? You bet your ass.</p>
 
 <p>Now I can whine and mope about how it sucks to be walking around in a boot and on crutches for the next 2 months. Or I can look on the bright side and make the most of my immobility. After all, if breaking a leg while acting is supposedly good luck, I guess breaking your foot while playing charades is a pretty close second. So let’s dive in.</p>
 
@@ -16,8 +115,9 @@
 
 <p>Achieving all this will need more concrete planning. Most of these are still just rough ideas in my head. Really, I probably won’t know 100% what I’m doing until clubs day. But I’m strangely looking forward to it.</p>
 
-<p>Hasta la vista,
-Ahren</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I broke my foot about a week ago now. How? I was playing charades. What was I miming? Sherlock Holmes: A Game of Shadows. Did we still win the point? You bet your ass.]]></summary></entry><entry><title type="html">A short review of a long journey (Christopher Nolan’s, The Odyssey)</title><link href="rnsf.dev/2026/08/06/odyssey-review.html" rel="alternate" type="text/html" title="A short review of a long journey (Christopher Nolan’s, The Odyssey)" /><published>2026-08-06T00:00:00-07:00</published><updated>2026-08-06T00:00:00-07:00</updated><id>rnsf.dev/2026/08/06/odyssey-review</id><content type="html" xml:base="rnsf.dev/2026/08/06/odyssey-review.html"><![CDATA[<p>I saw <em>The Odyssey</em> over the weekend*, and found it a bit… underwhelming in terms of Nolan films. Don’t get me wrong, the movie was still good, but it didn’t quite scratch that Nolan movie itch. That is, I didn’t really feel much while I was watching it. There were some cool scenes (Pig Transformation Scene, Siren Scene), but nothing that really made me go “WOAH”.</p>
+<p>Hasta la vista,</p>
+
+<p>Ahren</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I broke my foot about a week ago now. How? I was playing charades. What was I miming? Sherlock Holmes: A Game of Shadows. Did we still win the point? You bet your ass.]]></summary></entry><entry><title type="html">A short review of a long journey (Christopher Nolan’s, The Odyssey)</title><link href="rnsf.dev/2026/08/06/odyssey-review.html" rel="alternate" type="text/html" title="A short review of a long journey (Christopher Nolan’s, The Odyssey)" /><published>2026-08-06T00:00:00-07:00</published><updated>2026-08-06T00:00:00-07:00</updated><id>rnsf.dev/2026/08/06/odyssey-review</id><content type="html" xml:base="rnsf.dev/2026/08/06/odyssey-review.html"><![CDATA[<p>I saw <em>The Odyssey</em> over the weekend*, and found it a bit… underwhelming in terms of Nolan films. Don’t get me wrong, the movie was still good, but it didn’t quite scratch that Nolan movie itch. That is, I didn’t really feel much while I was watching it. There were some cool scenes (Pig Transformation Scene, Siren Scene), but nothing that really made me go “WOAH”.</p>
 
 <p>And I think a lot of this boils down to conflicts between Nolan’s directing/writing style and the source material. I like Nolan movies for the clever ideas in them, or the way he often messes with time, and how everything connects together in the end. <em>The Odyssey</em> has none of that. Watching the movie, the plot kind of felt like someone’s stream-of-consciousness fan fiction about their favorite Greek hero, Odysseus. Things kind of just happen, without much reason. Take, for instance, the scene with the giants and the moving trees. Odysseus and his crew land on an island after barely escaping a Cyclops on a previous island. On this new island, they are almost immediately chased off by some giants who can move the trees. That’s it. That’s the entire scene. This part of the story literally has no repercussions for the rest of the film, except for killing a few more of Odysseus’ crew.</p>
 
@@ -41,17 +141,17 @@ Ahren</p>]]></content><author><name></name></author><summary type="html"><![CDAT
 <h2 id="step-4-fixing-the-holidays">Step 4: Fixing the Holidays</h2>
 <p>Now that every date lands on the same day of the week each year, we can go about fixing the holidays. Christmas we already fixed, but all other holidays are being moved to the nearest Monday with a few exceptions:</p>
 
-<p>Jan  01: New Year’s Day
-Feb  13: Family Day
-Apr  10: Good Friday
-Apr  13: Easter (this is the final date for Easter - no more bouncing around)
-May  20: Victoria Day
-July 01: Canada Day
-Aug  01: B.C. Day
-Sept 01: Labour Day
-Oct  01: National Day for Truth and Reconciliation
-Oct  13: Thanksgiving Day
-Nov  11: Remembrance Day (this one is not moving to keep it on 11/11, although you’ll end up getting the 13th off anyway since the 11th is a Saturday)
+<p>Jan  01: New Year’s Day<br />
+Feb  13: Family Day<br />
+Apr  10: Good Friday<br />
+Apr  13: Easter (this is the final date for Easter - no more bouncing around)<br />
+May  20: Victoria Day<br />
+July 01: Canada Day<br />
+Aug  01: B.C. Day<br />
+Sept 01: Labour Day<br />
+Oct  01: National Day for Truth and Reconciliation<br />
+Oct  13: Thanksgiving Day<br />
+Nov  11: Remembrance Day (this one is not moving to keep it on 11/11, although you’ll end up getting the 13th off anyway since the 11th is a Saturday)<br />
 Dec  30: Christmas Day (we already talked about this)</p>
 
 <h2 id="step-5-profit">Step 5: Profit</h2>
@@ -436,47 +536,4 @@ Since motivation still makes it easier to change, though, it is important to mai
 
 <p>I’ll see ya in a bit. I’m going on a fishing trip.</p>
 
-<p><em>Ahren</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve wanted to be a game developer for close to 8 years now (ever since I first discovered Scratch in the 7th grade). I’ve poured countless hours over that time into working on game projects. From game jams, to big team efforts, to professional work, to personal projects that never saw the light of day. I watched the youtube channels, read the blogs, learned the engines, but now I think it’s time to take break.]]></summary></entry><entry><title type="html">Moving Away from Consumer Software</title><link href="rnsf.dev/2025/12/24/consumer-software.html" rel="alternate" type="text/html" title="Moving Away from Consumer Software" /><published>2025-12-24T00:00:00-08:00</published><updated>2025-12-24T00:00:00-08:00</updated><id>rnsf.dev/2025/12/24/consumer-software</id><content type="html" xml:base="rnsf.dev/2025/12/24/consumer-software.html"><![CDATA[<p>I’ve experimented the last 4 months with reducing my screen time as much as possible. I found that the time that I was spending on the computer was taking away from more meaningful things I could be doing, and was starting to get the in way of my wellbeing. With working another fully remote co-op this semester, I made a decision to do a little experimenting when it came to my relationship with technology. This was comprised of multiple actions primarily aimed at reducing screen time:</p>
-
-<ol>
-  <li>Automatically shutting down my PC after 6pm (after working hours). I still had my laptop to complete school work / other tasks that needed to be done after work.</li>
-  <li>Using various social media blockers to block infinite scrolling feeds (I’d already been doing this for a while, but did it to a larger extent over the past 4 months).</li>
-  <li>Making a larger effort to sign up for additional clubs and one-off events that would get me out of my dorm. I tried a lot of new things this semester including volunteering, salsa dancing, and resistance training; as well as attending various events from table top gaming to tote bag painting to marathons and half marathons.</li>
-  <li>Putting zero preassure on myself to be working on programming related side projects.</li>
-</ol>
-
-<p>Needless to say, I ended up having a really good time this semester. In fact, this was probably my favourite semester of university since I started 3 years ago. Of course there were other factors that helped: co-op is less stressful than academics, and I’m now quite  acclimated to life at university with this being my 4th year. Regardless, I don’t think anything else I’ve tried has improved my wellbeing quite to the extent that this experiment has.</p>
-
-<p>As I’ve taken a step back this semester, I’ve also noticed that being on a screen just doesn’t seem to be a very fun place to be. The few times I did scroll this semester I really noticed just how bad I felt after. Externally I also started noticing signs that the whole ecosystem of consumer software has fallen off:</p>
-
-<ul>
-  <li>Google’s app of the year is Focus Friend: an app designed to force you to spend less time using the other apps on your phone.</li>
-  <li>One of the top genres in gaming this year was called “friendslop”</li>
-  <li>Oxford Dictionary’s word of the year is “rage bait” (last year it was “brain rot”).</li>
-</ul>
-
-<p>Of course most of these things are more vibes based, but you don’t have to search hard to find studies showing the correlation between social media usage and a host of issues from <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9817115/">loneliness</a>, to <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6278213/">suicidal ideation</a>, to <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5003636/">eating disorders</a>.</p>
-
-<p>As a someone who’s wanted to be an indie game developer for over 5 years now, I naturally have consumed a lot of content from other (more successful) indie developers on how to do this. Before I started this experiment, I watched this talk from Jonathan Blow about how to find motivation to work on software projects.</p>
-
-<blockquote>
-  <p>For those that don’t know, Jon developed <a href="https://store.steampowered.com/app/26800/Braid/">Braid</a>, one of the first major PC indie hits. He’s been programming for over 3 decades, so he knows a few things.</p>
-</blockquote>
-
-<p>Anyway, near the beginning of the talk he states he believes that “computers are fundamentally depressing” (<a href="https://www.youtube.com/watch?v=RgSLRL5OpzY">17:45</a>) and that a lot of technical people are “unhappy for a great percentage of the time they are sitting in front of a computer” (<a href="https://www.youtube.com/watch?v=RgSLRL5OpzY">19:20</a>). He then goes on for the next hour discussing metitative techniques (among other things) to cope with the depression caused by computers. But man as I look back on this now do I think… it seems like it would be a lot easier to just avoid using the computer in the first place.</p>
-
-<p>That’s what I did. And it worked.</p>
-
-<p>Until next time,</p>
-
-<p><em>Ahren</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve experimented the last 4 months with reducing my screen time as much as possible. I found that the time that I was spending on the computer was taking away from more meaningful things I could be doing, and was starting to get the in way of my wellbeing. With working another fully remote co-op this semester, I made a decision to do a little experimenting when it came to my relationship with technology. This was comprised of multiple actions primarily aimed at reducing screen time:]]></summary></entry><entry><title type="html">Why I’m Starting this Blog</title><link href="rnsf.dev/2025/12/23/why-im-starting-this-blog.html" rel="alternate" type="text/html" title="Why I’m Starting this Blog" /><published>2025-12-23T00:00:00-08:00</published><updated>2025-12-23T00:00:00-08:00</updated><id>rnsf.dev/2025/12/23/why-im-starting-this-blog</id><content type="html" xml:base="rnsf.dev/2025/12/23/why-im-starting-this-blog.html"><![CDATA[<p>I’m starting this blog for a few reasons.</p>
-
-<ol>
-  <li>I feel like I have a pretty high filter when I talk to people. This obviously makes it harder to connect with others, and makes me stay quiet most of the time. This is where I’m going to experiment with lowering that filter.</li>
-  <li>I’m not that good at articulating certain ideas. This is probably a combination of a lack of practice of actually articulating, but also that I haven’t fully thought through a lot of the ideas I want to talk about. This is where I’m going to try to organize those ideas.</li>
-  <li>Those are really the two main reasons. But this list didn’t feel complete without a third. So I guess a final reason would be that it will be nice to keep a record of what I’m thinking about at different times in my life. I’m not one to normally keep a lot of records - I don’t take a lot of photos for example. Regardless it will be interesting to see how my future self reacts to what I write here.</li>
-</ol>
-
-<p>That’s all for now.</p>
-
-<p><em>Ahren</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’m starting this blog for a few reasons.]]></summary></entry></feed>
+<p><em>Ahren</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve wanted to be a game developer for close to 8 years now (ever since I first discovered Scratch in the 7th grade). I’ve poured countless hours over that time into working on game projects. From game jams, to big team efforts, to professional work, to personal projects that never saw the light of day. I watched the youtube channels, read the blogs, learned the engines, but now I think it’s time to take break.]]></summary></entry></feed>
